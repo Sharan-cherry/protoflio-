@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protofolio Website</title>
+    <!-- Title Icon.  -->
+    <link rel="icon" href="https://imgs.search.brave.com/J1TZ516x-zXpS7GKiKwYWvHXDFXWD9u9s2vFBve8N40/rs:fit:980:980:1/g:ce/aHR0cDovL2Nkbi5v/bmxpbmV3ZWJmb250/cy5jb20vc3ZnL2lt/Z18xMzIxMjAucG5n" type="image/x-icon">
+
+    <link rel="stylesheet" href="task2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/bootstrap-icons.svg" rel="stylesheet">
+    <!-- link for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Intern Shaala</a>
+           <!-- HAnd Burger button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- collapse item in a navbar stored in toggler button when it compersed-->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <!--this line is margin from start, inorder to seperate the logo and items to right side -->
+              <ul class="navbar-nav ms-auto">
+                <!---->
+
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#first">
+                    <i class="fa-sharp fa-solid fa-house"></i>
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#academic">
+                    <i class="fa-sharp fa-solid fa-book" ></i>
+                    Academics
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#technical">
+                    <i class="fa-sharp fa-solid fa-users" ></i>
+                    Technical Skills
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active"  href="#">
+                    <i class="fa-sharp fa-solid fa-graduation-cap"></i>
+                    Projects
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active"  href="#">
+                    <i class="fa-sharp fa-solid fa-bullseye"></i>
+                    Achievement
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#contact">
+                    <i class="fa-sharp fa-solid fa-address-book" ></i>
+                    Contant Me
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
+   <!-- Grid Applied -->     
+  <section>
+    <div id="first" class="container">
+      <div class="row">
+        <!-- space creating for 8 parts-->
+        <div class="col-lg-8">
+          <h1 id="heading">Jone Doe</h1>
+          <h5>Jonedoe@gmail.com</h5>
+          <hr>
+          <h3>Career Objective</h3>
+          <p id="para">
+            Seeking a responsible career oppurtunity in the field of computer Science where i can utilize my<br>
+            logical adn techical skills towards personal and professinal development.
+          </p>
+        </div>
+
+        <!--  space creating for another 4 parts-->
+        <div id="image"  class="col-lg-4">
+          <img src="https://fotokruse.rf-webworld.de/imageproxy.dll?name=f39de014-c4fb-4278-a5a1-c25385d26412/bilder/sonstige/passfoto-1.jpg&size=747,100000&crop=fill" alt="photo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--TECHNICAL SKILLS -->
+  <section>
+    <div class="container">
+      <div id="technical">
+          <h1>Tech Skills</h1><br>
+          <h3>Programming Skills</h3>
+          <ul>
+            <li>c</li>
+            <li>Java</li>
+            <li>Python</li>
+          </ul>
+          <br>
+          <h3>Databases</h3>
+          <ul>
+            <li>MySQL</li>
+          </ul>
+          <br>
+          <h3>Web Technologies</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>Node</li>
+          </ul>
+      </div>
+    <!--   Academics.     -->
+    <div id="academic" class="container">
+      <h3>Academic Information:</h3>
+        <table border ="5">
+            <tr class="head">
+                <th>Course Details</th>
+                <th>Institution</th>
+                <th>University/Board</th>
+                <th>Year Of Passing</th>
+                <th>CGPA</th>wer
+            </tr>
+            <tr>
+                <td>Bachelor Of Technology(Computer Science)</td>
+                <td>Keshav Memorial Institute Of Technology</td>
+                <td>JNTUH</td>
+                <td>2021</td>
+                <td>98.4%</td>
+            </tr>
+            <tr>
+                <td>Intermediate.MPC</td>
+                <td>Narayanguda Junior college, TS</td>
+                <td>JNTUH</td>
+                <td>2019</td>
+                <td>84.45%</td>
+            </tr>
+            <tr>
+                <td>School of Secondary Certificate</td>
+                <td>Keshav Memorial Institute Of Technology</td>
+                <td>SSC</td>
+                <td>2014</td>
+                <td>95.02%</td>
+            </tr>
+        </table>
+
+        <div id ="contact">
+          <h4> Contact Information</h4>
+          <h6>
+          Phone Number: 7989104243<br>
+          Email : sharan.medamoni4243@gmail.com<br>
+          Social Media: cherry@insta<br>
+          </h6>
+                             
+        </div>
+    </div>
+  </section>
+
+  <!--bootstrap javascript-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
